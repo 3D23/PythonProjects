@@ -1,0 +1,6 @@
+S = input()
+S = S.replace('<span>','')
+S = S.replace('&nbsp;','')
+S = S.replace('P</span','')
+sint = int(S)
+print(sint+1)

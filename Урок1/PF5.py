@@ -1,0 +1,5 @@
+firstNumber = int(input('Введи первое число:'))
+secondNumber = int(input('Введи второе число:'))
+maximum = max(firstNumber,secondNumber)
+minimum = min(firstNumber,secondNumber)
+print('Расстояние равно:',maximum - minimum)

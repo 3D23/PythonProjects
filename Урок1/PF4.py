@@ -1,0 +1,6 @@
+firstNumber = int(input('Введи первое число:'))
+secondNumber = int(input('Введи второе число:'))
+thirdNumber = int(input('Введи третье число:'))
+print('Сумма равна:',firstNumber + secondNumber + thirdNumber)
+print('Максимальное равно:',max(firstNumber,secondNumber,thirdNumber))
+print('Минимальное равно:',min(firstNumber,secondNumber,thirdNumber))
