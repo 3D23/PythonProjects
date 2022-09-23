@@ -1,0 +1,5 @@
+evaluations = input('Введите оценки через пробел: ')
+evaluationsList = evaluations.split(' ')
+count = len(evaluationsList)
+count5 = evaluationsList.count('5')
+print('Процент пятёрок: ', count5/count*100)
