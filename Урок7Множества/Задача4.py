@@ -9,7 +9,7 @@ f = int(F)
 g = int(G)
 answer = a + b + c
 if (g != 0) and (g <= a) and (g <= b) and (g <= c):
-    answer -= 3*g - 1
+    answer -= 3*g - g
     a -= g
     b -= g
     c -= g
